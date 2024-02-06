@@ -21,7 +21,7 @@ func TestSolution(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 
 			// call the Solution function and store the result in got
-			got := Solution(tt.p1)
+			got := Solution(&tt.p1)
 
 			// store the expected result in want
 			want := tt.want

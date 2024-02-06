@@ -1,11 +1,11 @@
-example_01:
+01:
 	@go run ./examples/01/main.go
 
-example_02:
+02:
 	@go run ./examples/02/main.go
 
-test_01:
+t01:
 	@go test -v ./examples/01
 
-test_02:
+t02:
 	@go test -v ./examples/02
