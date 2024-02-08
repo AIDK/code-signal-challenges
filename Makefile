@@ -10,6 +10,9 @@
 04:
 	@go run ./examples/04/main.go
 
+05:
+	@go run ./examples/05/main.go
+
 t01:
 	@go test -v ./examples/01
 
@@ -21,3 +24,6 @@ t03:
 
 t04:
 	@go test -v ./examples/04
+
+t05:
+	@go test -v ./examples/05
